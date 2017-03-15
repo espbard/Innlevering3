@@ -69,7 +69,9 @@ aside img{
 }
 #mainWindowRecipe img{
 	width:30%;
-	border: 1px solid grey;
+}
+h3{
+	clear:both;
 }
 #mainWindowRecipe aside{
 	float:right;
