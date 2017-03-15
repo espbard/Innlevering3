@@ -8,9 +8,9 @@ section{
     min-height:400px;
     background-color:#fafafa;
     padding:15px;
-	padding-bottom:30px;
+	  padding-bottom:30px;
     border: 1px solid grey;
-	overflow:auto;
+	  overflow:auto;
 }
 section table{
 	border-collapse: collapse;
@@ -87,10 +87,13 @@ nav ul {
     background-color:white;
     border: 1px solid grey;
     margin-bottom: 15px;
+    text-align: center;
+
 }
 
 nav li {
-    float: left;
+    float:left;
+
 }
 
 nav li a, .dropbtn {
@@ -113,8 +116,10 @@ nav li.dropdown {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgb(240,240,240);
+    background-color: rgb(225,240,255);
     min-width: 160px;
+    border: 1px solid grey;
+    border-top: none;
 }
 
 
@@ -124,6 +129,7 @@ nav li.dropdown {
     display: block;
     text-align: left;
     color:black;
+
 }
 
 .dropdown-content a:hover {
@@ -132,6 +138,9 @@ nav li.dropdown {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+td img{
+  height:20px;
 }
 footer{
 	color:black;
