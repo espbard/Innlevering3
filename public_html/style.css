@@ -1,13 +1,14 @@
 body{
     margin: 150px 15%;
     background-image:url(img/background.png);
-    font-family: sans-serif;
+    font-family: verdana;
     min-width:500px;
 }
 section{
     min-height:400px;
     background-color:#fafafa;
     padding:15px;
+	padding-bottom:30px;
     border: 1px solid grey;
 }
 section table{
@@ -21,13 +22,36 @@ aside{
     float:right;
     width: 30%;
     margin-left: 20px;
-    min-width:100px;
-    max-width: 300px;
 }
 aside img{
     width:100%;
     margin-bottom: 5px;
-    
+}
+#leftRecipe{
+	float:left;
+	margin:0px;
+	width:30%;
+	background-color:#fafafa;
+	border: 1px solid grey;
+	padding: 15px;
+	padding-bottom: 30px;
+	line-height: 150%;
+}
+#mainWindowRecipe{
+	float:right;
+	margin:0px;
+	padding-left: 40px;
+	width: 60%;
+}
+#mainWindowRecipe img{
+	width:30%;
+	border: 1px solid grey;
+}
+#mainWindowRecipe aside{
+	float:right;
+	width: 60%;
+	padding-top:5px;
+	line-height: 2em;
 }
 .undertekst{
     color:grey;
@@ -84,4 +108,11 @@ nav li.dropdown {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+footer{
+	color:grey;
+	font-size: 0.7em;
+	text-align:center;
+	clear:both;
+	line-height: 3em;
 }
